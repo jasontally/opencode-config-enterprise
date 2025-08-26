@@ -1,6 +1,6 @@
 # OpenCode Configuration
 
-This repository contains an enterprise-focused OpenCode configuration for dayjob use. It includes an additional primary agent called "web" optimized for web research tasks, with tools limited to webfetch, todowrite, and todoread, and a prompt tailored for business and research purposes.
+This repository contains an enterprise-focused OpenCode configuration that you might use at your day job or in situations where you don't have source control that can compensate for unwanted changes. It has the share feature disabled, has permissions configured to ask bash and edit operations and includes an additional primary agent called "web" optimized for web research tasks, with tools limited to webfetch, todowrite, and todoread, and a prompt tailored for web research purposes.
 
 ## Installation
 
