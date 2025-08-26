@@ -1,0 +1,23 @@
+/* Enterprise configuration for OpenCode, focused on web research and task management for professional use. */
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "web": {
+      "mode": "primary",
+      "prompt": "{file:./prompts/web.txt}",
+      "tools": {
+        "write": false,
+        "edit": false,
+        "bash": false,
+        "read": false,
+        "grep": false,
+        "glob": false,
+        "list": false,
+        "patch": false,
+        "todowrite": true,
+        "todoread": true,
+        "webfetch": true,
+      },
+    },
+  },
+}
