@@ -1,6 +1,11 @@
-/* Enterprise configuration for OpenCode, focused on web research and task management for professional use. */
+/* Enterprise configuration example for OpenCode that attempts to limit risk by disabling the share feature and asking for bash and edit permissions */
 {
   "$schema": "https://opencode.ai/config.json",
+  "share": "disabled",
+  "permission": {
+    "edit": "ask",
+    "bash": "ask"
+  }
   "agent": {
     "web": {
       "mode": "primary",
@@ -16,7 +21,7 @@
         "patch": false,
         "todowrite": true,
         "todoread": true,
-        "webfetch": true,
+        "webfetch": true
       },
     },
   },
