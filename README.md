@@ -9,7 +9,7 @@ To clone this repository directly into your home directory at the correct locati
 
 ```bash
 rm -r ~/.config/opencode
-git clone https://github.com/jasontally/opencode-config.git ~/.config/opencode
+git clone https://github.com/jasontally/opencode-config-enterprise.git ~/.config/opencode
 ```
 
 This will create the `~/.config/opencode` directory and download all configuration files into it.
